@@ -3,7 +3,6 @@
   "version": "0.0.0-development",
   "description": "Default predefined webpack configuration for single-spa with react and typescript",
   "main": "index.js",
-  "private": true,
   "keywords": [
     "webpack",
     "react",
