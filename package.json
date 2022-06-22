@@ -52,7 +52,7 @@
     "@commitlint/config-conventional": "^17.0.2",
     "commitizen": "^4.2.4",
     "conventional-changelog-cli": "^2.2.2",
-    "cz-conventional-changelog": "^3.3.0",
+    "cz-conventional-changelog": "3.3.0",
     "husky": "^8.0.1",
     "semantic-release": "^19.0.3",
     "semantic-release-cli": "^5.4.4",
@@ -67,5 +67,10 @@
   "bugs": {
     "url": "https://github.com/paalamugan/single-spa-webpack-config-react-ts/issues"
   },
-  "homepage": "https://github.com/paalamugan/single-spa-webpack-config-react-ts#readme"
+  "homepage": "https://github.com/paalamugan/single-spa-webpack-config-react-ts#readme",
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
 }
