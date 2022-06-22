@@ -1,6 +1,6 @@
 {
   "name": "single-spa-webpack-config-react-ts",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "Default predefined webpack configuration for single-spa with react and typescript",
   "main": "index.js",
   "keywords": [
