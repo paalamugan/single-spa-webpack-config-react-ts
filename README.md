@@ -13,7 +13,7 @@ yarn - 1.22.19
 
 - Install as a node module package like
 
-```
+```sh
 yarn add -D single-spa-webpack-config-react-ts
 ```
 
