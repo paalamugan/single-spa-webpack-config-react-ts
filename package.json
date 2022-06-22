@@ -1,6 +1,6 @@
 {
   "name": "single-spa-webpack-config-react-ts",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "Default predefined webpack configuration for single-spa with react and typescript",
   "main": "index.js",
   "keywords": [
@@ -17,6 +17,11 @@
     "lib",
     "config"
   ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release:setup": "semantic-release-cli setup",
+    "semantic-release": "semantic-release --branches main"
+  },
   "author": "Paalamugan",
   "license": "MIT",
   "dependencies": {
@@ -38,13 +43,15 @@
   },
   "devDependencies": {
     "@babel/core": "^7.18.2",
+    "semantic-release": "^19.0.3",
+    "semantic-release-cli": "^5.4.4",
     "typescript": "^4.7.2",
     "webpack": "^5.72.1",
     "webpack-merge": "^5.8.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/paalamugan/single-spa-webpack-config-react-ts.git"
+    "url": "https://github.com/paalamugan/single-spa-webpack-config-react-ts.git"
   },
   "bugs": {
     "url": "https://github.com/paalamugan/single-spa-webpack-config-react-ts/issues"
